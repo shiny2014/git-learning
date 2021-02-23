@@ -1,0 +1,30 @@
+yum install git
+git init
+git status
+git add - to move code from working directory to staging directory
+git commit- To move code from staging directory to local repository
+git log
+
+
+Git work flow
+
+working directory -> staging area or index area -> repository .git folder -> remote(git hub)
+
+master
+origin
+
+git clone <url>
+
+to link between git and github
+git config -global user.name<<Your name>>
+git config -global user.email<<mail id which is used to login githubaccount>>
+
+git config -list
+
+configure notepadd++ with git
+
+git branch
+git checkout <branch name>
+
+git checkout -b <branch name>
+git checkout -d <branch name>
